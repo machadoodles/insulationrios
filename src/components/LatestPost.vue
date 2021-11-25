@@ -3,7 +3,7 @@
     <div class="block galleryBlock">
         <v-container>
             <h2 class="text-center">
-              Latest Post
+              Latest Jobs
             </h2>
             <v-row>
                 <v-col cols="12" md="4" v-for="item in items" :key="item.id">
@@ -28,7 +28,7 @@
                   <div></div>
                 </v-card-text>
 
-                <v-card-actions>
+                <!-- <v-card-actions>
                   <v-btn
                     color="primary"
                     text
@@ -36,7 +36,7 @@
                     More
                   </v-btn>
 
-                </v-card-actions>
+                </v-card-actions> -->
                   </v-card>
                 </v-col>
             </v-row>
@@ -54,24 +54,21 @@
         items: [
           {
             id: 1,
-            title: "Hong Kong",
-            subtitle: "NOT CHINA",
-            description: "View from Victoria Peak looking west",
-            src: require("../assets/images/HongKong.jpg")
+            title: "Insulation",
+            subtitle: "Professional Work",
+            src: require("../assets/images/job1.jpeg")
           },
           {
             id: 2,
-            title: "CDMX Pyramids",
-            subtitle: "Piramides de CDMX",
-            description: "Son piramides",
-            src: require("../assets/images/CDMXpyramidd.jpg")
+            title: "Insulation",
+            subtitle: "Professional Work",
+            src: require("../assets/images/job2.jpeg"),
           },
           {
             id: 3,
-            title: "SD Drone Shot",
-            subtitle: "Taken from 150 ft",
-            description: "DJI drone shot from Golden Hill Park",
-            src: require("../assets/images/SanDiegoDrone.jpg")
+            title: "Insulation",
+            subtitle: "Professional Work",
+            src: require("../assets/images/job5.jpeg")
           }          
         ]
       }

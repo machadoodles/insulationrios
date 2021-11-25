@@ -2,19 +2,19 @@
     <div class="block galleryBlock">
         <v-container>
       <h2 class="text-center">
-        Gallery
+        Previous Work
       </h2>
       <v-row>
     <v-col
-      v-for="n in 9"
-      :key="n"
+      v-for="picture in pictures"
+      :key="picture"
       class="d-flex child-flex"
       cols="6"
       md="4"
+      
     >
       <v-img
-        :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-        :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+        :src="picture.src"
         aspect-ratio="1"
         class="grey lighten-2"
         contain
@@ -42,9 +42,40 @@
   export default {
     name: 'Gallery',
 
-    data: () => ({
-    
-    }),
+    data () {
+      return {
+        pictures: [
+          {
+            id: 1,
+            src: require("../assets/images/job1.jpeg"),
+          },
+          {
+            id: 2,
+            src: require("../assets/images/job2.jpeg"),
+          },
+          {
+            id: 3,
+            src: require("../assets/images/job3.jpeg"),
+          },
+          {
+            id: 4,
+            src: require("../assets/images/job4.jpeg"),
+          },
+          {
+            id: 5,
+            src: require("../assets/images/job5.jpeg"),
+          },
+          {
+            id: 6,
+            src: require("../assets/images/job6.jpeg"),
+          },
+          {
+            id: 7,
+            src: require("../assets/images/job7.jpeg"),
+          },
+        ],
+      }
+    }
   }
 </script>
 
