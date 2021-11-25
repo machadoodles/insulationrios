@@ -19,10 +19,10 @@ Vue.config.productionTip = false
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/', component: Home },
-    { path: '/about', component: About },
-    { path: '/contact', component: Contact },
-    { path: '*', component: NotFound }
+    { path: '/', component: Home, meta: { title: 'Insulation and Roofing Rios' } },
+    { path: '/about', component: About, meta: { title: 'Insulation and Roofing Rios' } },
+    { path: '/contact', component: Contact, meta: { title: 'Insulation and Roofing Rios' } },
+    { path: '*', component: NotFound, meta: { title: 'Insulation and Roofing Rios' } },
   ]
 })
 
