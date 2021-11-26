@@ -5,7 +5,7 @@
       <v-toolbar-title class="heroBlock">Insulation & Roofing</v-toolbar-title>
 
       <v-spacer>  </v-spacer>
-      <img src="../assets/logos/riosRoofManSliced.svg" height="60px" width="150px" padding="0 0 0 10px"  class="hidden-xs-only" />
+      <img src="../assets/logos/riosRoofManSliced.svg" height="60px" width="150px" padding-top="10px"  class="hidden-xs-only img" />
        <v-spacer>  </v-spacer>
 <v-toolbar-items class="hidden-xs-only">
 
@@ -51,3 +51,10 @@
     }),
   }
 </script>
+
+<style scoped>
+.img {
+  max-height: 100%;
+  
+}
+</style>
