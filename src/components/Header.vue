@@ -39,7 +39,9 @@
       </v-list>
     </v-menu></div>
     </v-toolbar>
+
   </v-container>
+
 </template>
 
 <script>
@@ -55,6 +57,6 @@
 <style scoped>
 .img {
   max-height: 100%;
-  
+
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
 
     <div class="HeroBlock hidden-md-only hidden-lg-only hidden-xl-only">
-       <v-carousel hide-delimiters cycle>
+       <v-carousel hide-delimiters cycle height="500px">
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
@@ -10,6 +10,7 @@
       transition="fade-transition"
       style="width:900px;height:auto; align:center;"
       justify="center"
+      
     >
     <v-row class="fill-height title hidden-xs-only" align="center" justify="center">
       <div>{{ item.title }}</div>

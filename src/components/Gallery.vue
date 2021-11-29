@@ -1,30 +1,52 @@
 <template>
     <div class="block galleryBlock">
-        <v-container>
-      <h2 class="text-center">
-        Previous Work
-      </h2>
-      <v-row>
-    <v-col
-      v-for="picture in pictures"
-      :key="picture"
-      class="d-flex child-flex"
-      cols="6"
-      md="4"
-      
-    >
-      <v-img
-        :src="picture.src"
-        aspect-ratio="1"
-        class="grey lighten-2"
-        contain
-      >
-        <template v-slot:placeholder>
-          <v-row
-            class="fill-height ma-0"
-            align="center"
-            justify="center"
-          >
+                <v-parallax class="hidden-xs-only hidden-sm-only"
+                height="700"
+                src="../assets/images/job1.jpeg"
+              >
+              <v-row
+                    align="center"
+                    justify="center"
+                  >
+                  
+                    <v-col
+                      class="text-center"
+                      cols="14"
+                    >
+                      <h1 class="text-h2 font-weight-thick mb-10">
+                        Welcome to Insulation & Roofing Rios
+                      </h1>
+                      <h4 class="text-h5 subheading">
+                        We'll help you with any insulation jobs you may have
+                      </h4>
+                    </v-col>
+                  </v-row>
+              </v-parallax>
+                            <v-container>
+                            <h2 class="text-center">
+                              Previous Work
+                            </h2>
+                            <v-row>
+                                  <v-col
+                                    v-for="picture in pictures"
+                                    :key="picture"
+                                    class="d-flex child-flex"
+                                    cols="6"
+                                    md="4"
+                                    
+                                  >
+                            <v-img
+                              :src="picture.src"
+                              aspect-ratio="1"
+                              class="grey lighten-2"
+                              contain
+                            >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
             <v-progress-circular
               indeterminate
               color="grey lighten-5"
