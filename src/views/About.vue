@@ -18,7 +18,7 @@
   <div class="row">
     <div class="col">
                <h3 class="text-center">About Insulation & Roofing Rios</h3>
-        <p style="text-align: justify;">Here at Attic Heroes, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our award-winning customer service, attention to detail, and years of professional expertise.
+        <p style="text-align: justify;">Here at Insulation & Roofing Rios, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our award-winning customer service, attention to detail, and years of professional expertise.
           <br />
           <br />
 Insulation & Roofing Rios understands the challenges that your busy professional life may induce on the upkeep and maintenance of your home. Unfortunately, innocent negligence of your attic may lead to structural damage to your home, which may increase your risk of exposure to potentially serious health hazards and may pose a threat to your home’s structural integrity. It is recommended to get attic inspection of your home during the planning phase of updating your home. </p>
