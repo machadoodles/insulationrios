@@ -11,19 +11,41 @@
      </div>
      <div class="block">
        <v-container>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien eget mi proin sed. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Arcu non sodales neque sodales ut etiam sit amet nisl. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Aliquet bibendum enim facilisis gravida. Quisque egestas diam in arcu. Massa tincidunt dui ut ornare lectus sit amet est placerat. Sed odio morbi quis commodo odio aenean sed adipiscing. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Fames ac turpis egestas integer eget aliquet. Enim ut tellus elementum sagittis vitae et. Mus mauris vitae ultricies leo integer malesuada nunc vel risus. Enim tortor at auctor urna. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. Porttitor rhoncus dolor purus non enim praesent.
-                  <br/>
 
-                            <br/>
+         <!-- <a href="tel:(619)%20600-6812" class="hvr-bounce-to-bottom"><i class="fa fa-phone"></i>(619) 600-6812</a> -->
+                 
+<div class="container">
+  <div class="row">
+    <div class="col">
+               <h3 class="text-center">About Insulation & Roofing Rios</h3>
+        <p style="text-align: justify;">Here at Attic Heroes, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our award-winning customer service, attention to detail, and years of professional expertise.
+          <br />
+          <br />
+Insulation & Roofing Rios understands the challenges that your busy professional life may induce on the upkeep and maintenance of your home. Unfortunately, innocent negligence of your attic may lead to structural damage to your home, which may increase your risk of exposure to potentially serious health hazards and may pose a threat to your home’s structural integrity. It is recommended to get attic inspection of your home during the planning phase of updating your home. </p>
+    </div>
+      <div class="col">
+        
+          <v-img max-height="380" max-width="570" src="https://theatticheroes.com/wp-content/uploads/2018/09/ABOUT-ATTIC.jpeg"></v-img>
+      </div>
+  </div>
+  <div class="row">
+          <div class="col">
+          <v-img max-height="380" max-width="570" src="https://theatticheroes.com/wp-content/uploads/2018/10/NosoAbou.jpg"></v-img>
+      </div>
+    <div class="col">
+               <h3 class="text-center">Why you should choose Insulation & Roofing Rios</h3>
+        <p style="text-align: justify;">With a staff of well-seasoned, experienced, and friendly attic specialists, Attic Heroes focuses on providing our customers with an efficient, quick, and incredibly satisfying customer experience. We tailor to your attic’s needs in the most cost-effective and thorough manner, as we believe that attention to detail is essential to the perfect customer experience. Don’t believe us? We would love to offer you a free in-depth the photo evaluation of you attic.</p>
+    </div>
 
-                            Ac turpis egestas sed tempus urna et pharetra pharetra massa. Dolor purus non enim praesent elementum facilisis leo vel fringilla. Vulputate dignissim suspendisse in est ante in nibh. Quam quisque id diam vel quam elementum. A diam maecenas sed enim ut sem viverra aliquet eget. Lorem sed risus ultricies tristique nulla aliquet enim. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem fringilla ut morbi tincidunt augue interdum velit. Pellentesque habitant morbi tristique senectus et netus et malesuada. Mauris commodo quis imperdiet massa tincidunt. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Vulputate enim nulla aliquet porttitor lacus luctus. Non pulvinar neque laoreet suspendisse. At in tellus integer feugiat scelerisque varius morbi enim.
-                            <br />
-                            <br/>
+  </div>
+</div>
 
-                  Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Nunc aliquet bibendum enim facilisis gravida neque. Commodo sed egestas egestas fringilla phasellus. Lacus viverra vitae congue eu. Nisl tincidunt eget nullam non nisi est sit. Pellentesque habitant morbi tristique senectus et netus et. Enim nulla aliquet porttitor lacus luctus accumsan. Interdum varius sit amet mattis vulputate enim nulla aliquet. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Et netus et malesuada fames ac turpis egestas sed. Mollis nunc sed id semper risus. Elementum nisi quis eleifend quam adipiscing vitae proin. Ridiculus mus mauris vitae ultricies. Lacus viverra vitae congue eu. Diam quis enim lobortis scelerisque fermentum dui faucibus in.</p>         
-                        </v-container>
-     </div>
-        <div class="block">
+    
+
+  </v-container> 
+  
+  </div>
+        <!-- <div class="block">
                 <v-container>
                     <h2 class="text-center">Our Team</h2>
                         <v-row>
@@ -48,7 +70,11 @@
                 </v-col>
              </v-row>
          </v-container>
-      </div>
+      </div> -->
+
+
+
+
    </v-content>
 </template>
 
@@ -82,3 +108,11 @@
     }
   }
 </script>
+
+<style scoped>
+h1 {
+  font-size: 4rem;
+  color: white;
+  background-color: black;
+}
+</style>

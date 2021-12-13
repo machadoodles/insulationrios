@@ -2,14 +2,14 @@
 <v-content>
   <Hero />
   <Gallery />
-  <LatestPost />
+  <!-- <LatestPost /> -->
 </v-content>
 </template>
 
 <script>
 import Hero from '../components/Hero'
 import Gallery from '../components/Gallery'
-import LatestPost from '../components/LatestPost'
+// import LatestPost from '../components/LatestPost'
 
   export default {
     name: 'Home',
@@ -17,7 +17,7 @@ import LatestPost from '../components/LatestPost'
     components: {
     Hero,
     Gallery,
-    LatestPost,
+    // LatestPost,
     },
     data () {
       return {
