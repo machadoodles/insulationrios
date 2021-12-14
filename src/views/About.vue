@@ -14,31 +14,92 @@
 
          <!-- <a href="tel:(619)%20600-6812" class="hvr-bounce-to-bottom"><i class="fa fa-phone"></i>(619) 600-6812</a> -->
                  
-<div class="container">
-  <div class="row">
-    <div class="col">
-               <h3 class="text-center">About Insulation & Roofing Rios</h3>
-        <p style="text-align: justify;">Here at Insulation & Roofing Rios, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our award-winning customer service, attention to detail, and years of professional expertise.
-          <br />
-          <br />
-Insulation & Roofing Rios understands the challenges that your busy professional life may induce on the upkeep and maintenance of your home. Unfortunately, innocent negligence of your attic may lead to structural damage to your home, which may increase your risk of exposure to potentially serious health hazards and may pose a threat to your home’s structural integrity. It is recommended to get attic inspection of your home during the planning phase of updating your home. </p>
-    </div>
-      <div class="col">
-        
-          <v-img max-height="380" max-width="570" src="https://theatticheroes.com/wp-content/uploads/2018/09/ABOUT-ATTIC.jpeg"></v-img>
-      </div>
-  </div>
-  <div class="row">
+    <v-container id="hideThis">
+      <div class="row">
+        <div class="col">
+                  <h3 class="text-center">About Insulation & Roofing Rios</h3>
+            <p style="text-align: justify;">Here at Insulation & Roofing Rios, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our award-winning customer service, attention to detail, and years of professional expertise.
+              <br />
+              <br />
+    Insulation & Roofing Rios understands the challenges that your busy professional life may induce on the upkeep and maintenance of your home. Unfortunately, innocent negligence of your attic may lead to structural damage to your home, which may increase your risk of exposure to potentially serious health hazards and may pose a threat to your home’s structural integrity. It is recommended to get attic inspection of your home during the planning phase of updating your home. </p>
+        </div>
           <div class="col">
-          <v-img max-height="380" max-width="570" src="https://theatticheroes.com/wp-content/uploads/2018/10/NosoAbou.jpg"></v-img>
+            
+              <v-img max-height="380" max-width="580" src="https://theatticheroes.com/wp-content/uploads/2018/09/ABOUT-ATTIC.jpeg"></v-img>
+          </div>
       </div>
-    <div class="col">
-               <h3 class="text-center">Why you should choose Insulation & Roofing Rios</h3>
-        <p style="text-align: justify;">With a staff of well-seasoned, experienced, and friendly attic specialists, Attic Heroes focuses on providing our customers with an efficient, quick, and incredibly satisfying customer experience. We tailor to your attic’s needs in the most cost-effective and thorough manner, as we believe that attention to detail is essential to the perfect customer experience. Don’t believe us? We would love to offer you a free in-depth the photo evaluation of you attic.</p>
-    </div>
+      <div class="row">
+              <div class="col">
+              <v-img max-height="380" max-width="580" src="https://theatticheroes.com/wp-content/uploads/2018/10/NosoAbou.jpg"></v-img>
+          </div>
+        <div class="col">
+                  <h3 class="text-center">Why you should choose Insulation & Roofing Rios</h3>
+            <p style="text-align: justify;">With a staff of well-seasoned, experienced, and friendly attic specialists, Attic Heroes focuses on providing our customers with an efficient, quick, and incredibly satisfying customer experience. We tailor to your attic’s needs in the most cost-effective and thorough manner, as we believe that attention to detail is essential to the perfect customer experience. Don’t believe us? We would love to offer you a free in-depth the photo evaluation of you attic.</p>
+        </div>
 
-  </div>
-</div>
+      </div>
+    </v-container> 
+
+        <v-container id="hideThisTwo">
+                  <v-row no-gutters>
+                  <v-col
+                    cols="12"
+                    sm="6"
+                    md="8"
+                  >
+                    <v-card
+                      class="pa-2"
+                    >
+                      <p style="text-align: justify;">Here at Insulation & Roofing Rios, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our award-winning customer service, attention to detail, and years of professional expertise.
+                        <br />
+                        <br />
+                    Insulation & Roofing Rios understands the challenges that your busy professional life may induce on the upkeep and maintenance of your home. Unfortunately, innocent negligence of your attic may lead to structural damage to your home, which may increase your risk of exposure to potentially serious health hazards and may pose a threat to your home’s structural integrity. It is recommended to get attic inspection of your home during the planning phase of updating your home. </p>
+                          </v-card>
+                  </v-col>
+                  <v-col
+                    cols="6"
+                    md="4"
+                  >
+                    <v-card
+
+                    >
+                      <v-img max-height="380" max-width="570" src="https://theatticheroes.com/wp-content/uploads/2018/09/ABOUT-ATTIC.jpeg"></v-img>
+                    </v-card>
+                  </v-col>
+                </v-row>
+
+                  <v-row no-gutters>
+                  <v-col
+                    cols="12"
+                    sm="6"
+                    md="8"
+                  >
+                  <v-card
+                      class="pa-2"
+                    >
+                      <v-img max-height="380" max-width="580" src="https://theatticheroes.com/wp-content/uploads/2018/10/NosoAbou.jpg"></v-img>
+                    </v-card>
+                    
+                  </v-col>
+                  <v-col
+                    cols="6"
+                    md="4"
+                  >
+                    
+                    <v-card
+                      class="pa-2"
+                    >
+                     <h3 class="text-center">Why you should choose Insulation & Roofing Rios</h3>
+            <p style="text-align: justify;">With a staff of well-seasoned, experienced, and friendly attic specialists, Attic Heroes focuses on providing our customers with an efficient, quick, and incredibly satisfying customer experience. We tailor to your attic’s needs in the most cost-effective and thorough manner, as we believe that attention to detail is essential to the perfect customer experience. Don’t believe us? We would love to offer you a free in-depth the photo evaluation of you attic.</p>
+          
+
+                          </v-card>
+                  </v-col>
+                </v-row>  
+
+
+
+    </v-container>
 
     
 
@@ -76,6 +137,8 @@ Insulation & Roofing Rios understands the challenges that your busy professional
 
 
    </v-content>
+
+   
 </template>
 
 <script>
@@ -83,6 +146,7 @@ Insulation & Roofing Rios understands the challenges that your busy professional
     name: 'About',
 
     data () {
+      
       return {
         items: [
           {
@@ -107,6 +171,7 @@ Insulation & Roofing Rios understands the challenges that your busy professional
       }
     }
   }
+  
 </script>
 
 <style scoped>
@@ -115,4 +180,23 @@ h1 {
   color: white;
   background-color: black;
 }
+
+@media screen and (min-width: 758px) and (max-width: 900px) {
+  #hideThis {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 899px) {
+  #hideThisTwo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  #hideThisTwo {
+    display: none;
+  }
+}
+
 </style>
