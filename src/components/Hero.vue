@@ -10,7 +10,6 @@
       transition="fade-transition"
       style="max-width: 100%; height:auto; align:center;"
       justify="center"
-      
     >
     <v-row class="fill-height title hidden-xs-only" align="center" justify="center">
       <div>{{ item.title }}</div>
@@ -49,6 +48,12 @@
           },
           {
             src: require("../assets/images/hero7.jpg"),
+          },
+          {
+            src: require("../assets/images/hero8.jpg"),
+          },
+          {
+            src: require("../assets/images/hero9.jpg"),
           },
         ],
       }

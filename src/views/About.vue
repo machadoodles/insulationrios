@@ -1,7 +1,7 @@
 <template>
    <v-main>
      <div class="staticHero">
-       <v-img src="../assets/images/hero7.jpg" contain>
+       <v-img src="../assets/images/hero7.jpg" contain max-width="1200" max-height="800" class="pa-md-4 mx-lg-auto">
          <v-row align="end" class="lightbox white--text pa-2 fill-height">
            <v-col  class="hidden-xs-only">
              <div class="headline"><h1>About Us</h1></div> 
@@ -90,8 +90,11 @@
                       class="pa-2"
                     >
                      <h3 class="text-center">Why you should choose Insulation & Roofing Rios</h3>
-            <p style="text-align: justify;">With a staff of well-seasoned, experienced, and friendly attic specialists, Attic Heroes focuses on providing our customers with an efficient, quick, and incredibly satisfying customer experience. We tailor to your attic’s needs in the most cost-effective and thorough manner, as we believe that attention to detail is essential to the perfect customer experience. Don’t believe us? We would love to offer you a free in-depth the photo evaluation of you attic.</p>
-          
+            <p style="text-align: justify;">
+              With a staff of well-seasoned, experienced, and friendly attic specialists, Attic Heroes focuses on providing our customers with an efficient, quick, and incredibly satisfying customer experience. We tailor to your attic’s needs in the most cost-effective and thorough manner, as we believe that attention to detail is essential to the perfect customer experience. Don’t believe us? We would love to offer you a free in-depth the photo evaluation of you attic.
+              
+              </p>
+         
 
                           </v-card>
                   </v-col>

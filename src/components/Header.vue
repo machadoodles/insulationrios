@@ -21,6 +21,10 @@
       <v-btn text>
                 <router-link to="/contact">Contact </router-link>
       </v-btn>
+      <v-btn text>
+          
+                <a href="tel:6264899924"><span class="mdi mdi-phone"></span> Call us: 626.489.9924 </a>
+          </v-btn>
       </v-toolbar-items>
       <div class="hidden-sm-and-up"><v-menu offset-y>
       <template v-slot:activator="{ on }">
@@ -38,7 +42,8 @@
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title><a href="tel:6264899924">Call us at: 626.489.9924 </a></v-list-item-title>
+            <v-list-item-title><a href="tel:6264899924"><span class="mdi mdi-phone"></span>
+ 626.489.9924 </a></v-list-item-title>
           </v-list-item>
 
 

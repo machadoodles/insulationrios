@@ -1,7 +1,7 @@
 <template>
 <v-main>
    <div class="staticHero">
-       <v-img src="../assets/images/hero8.jpg" contain>
+       <v-img src="../assets/images/hero8.jpg" contain max-width="1200" max-height="800" class="pa-md-4 mx-lg-auto">
          <v-row align="end" class="lightbox white--text pa-2 fill-height">
            <v-col  class="hidden-xs-only">
              <div class="headline"><h1>Contact us</h1></div> 
@@ -10,6 +10,7 @@
        </v-img>
      </div>
             <v-container>
+              
                   <div class="block">
                       <v-form
                   ref="form"

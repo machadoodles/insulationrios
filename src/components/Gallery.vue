@@ -95,6 +95,42 @@
             id: 7,
             src: require("../assets/images/job7.jpeg"),
           },
+          {
+            id: 8,
+            src: require("../assets/images/hero1.jpg"),
+          },
+          {
+            id: 9,
+            src: require("../assets/images/hero2.jpg"),
+          },
+          {
+            id: 10,
+            src: require("../assets/images/hero3.jpg"),
+          },
+          {
+            id: 11,
+            src: require("../assets/images/hero4.jpg"),
+          },
+          {
+            id: 12,
+            src: require("../assets/images/hero5.jpg"),
+          },
+          {
+            id: 13,
+            src: require("../assets/images/hero6.jpg"),
+          },
+          {
+            id: 14,
+            src: require("../assets/images/hero7.jpg"),
+          },
+          {
+            id: 15,
+            src: require("../assets/images/hero8.jpg"),
+          },
+          {
+            id: 16,
+            src: require("../assets/images/hero9.jpg"),
+          },
         ],
       }
     }
