@@ -32,3 +32,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+  background-color: #ffffff;
+}
+</style>

@@ -8,7 +8,7 @@
       :src="item.src"
       reverse-transition="fade-transition"
       transition="fade-transition"
-      style="width:900px;height:auto; align:center;"
+      style="max-width: 100%; height:auto; align:center;"
       justify="center"
       
     >
@@ -30,25 +30,25 @@
       return {
         items: [
           {
-            src: require("../assets/images/job1.jpeg"),
+            src: require("../assets/images/hero1.jpg"),
           },
           {
-            src: require("../assets/images/job2.jpeg"),
+            src: require("../assets/images/hero2.jpg"),
           },
           {
-            src: require("../assets/images/job3.jpeg"),
+            src: require("../assets/images/hero3.jpg"),
           },
           {
-            src: require("../assets/images/job4.jpeg"),
+            src: require("../assets/images/hero4.jpg"),
           },
           {
-            src: require("../assets/images/job5.jpeg"),
+            src: require("../assets/images/hero5.jpg"),
           },
           {
-            src: require("../assets/images/job6.jpeg"),
+            src: require("../assets/images/hero6.jpg"),
           },
           {
-            src: require("../assets/images/job7.jpeg"),
+            src: require("../assets/images/hero7.jpg"),
           },
         ],
       }

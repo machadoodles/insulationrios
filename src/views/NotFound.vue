@@ -1,5 +1,5 @@
 <template>
-<v-content>
+<v-main>
   <v-contrainer>
     <div class="block text-center notFound">
       <h2>
@@ -9,7 +9,7 @@
       <p>We're sorry, the page you requested could not be found. Please go back to the homepage or contact us</p>
     </div>
   </v-contrainer>
-</v-content>
+</v-main>
 </template>
 
 <script>

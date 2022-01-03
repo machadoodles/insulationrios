@@ -2,10 +2,10 @@
   <v-container>
     <v-toolbar flat>
       
-      <v-toolbar-title class="heroBlock">Insulation & Roofing</v-toolbar-title>
+      <router-link to="/"><v-toolbar-title class="heroBlock">Insulation & Roofing</v-toolbar-title></router-link>
 
       <v-spacer>  </v-spacer>
-      <img src="../assets/logos/riosRoofManSliced.svg" height="60px" width="150px" padding-top="10px"  class="hidden-xs-only img" />
+      <router-link to="/"><img src="../assets/logos/riosRoofManSliced.svg" height="60px" width="150px" padding-top="10px"  class="hidden-xs-only img" /></router-link>
        <v-spacer>  </v-spacer>
 <v-toolbar-items class="hidden-xs-only">
 
@@ -36,6 +36,12 @@
             <v-list-item>
             <v-list-item-title><router-link to="/contact">Contact </router-link></v-list-item-title>
           </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title><a href="tel:6264899924">Call us at: 626.489.9924 </a></v-list-item-title>
+          </v-list-item>
+
+
       </v-list>
     </v-menu></div>
     </v-toolbar>

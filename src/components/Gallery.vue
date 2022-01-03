@@ -2,7 +2,7 @@
     <div class="block galleryBlock">
                 <v-parallax class="hidden-xs-only hidden-sm-only"
                 height="700"
-                src="../assets/images/job1.jpeg"
+                src="../assets/images/hero2.jpg"
               >
               <v-row
                     align="center"

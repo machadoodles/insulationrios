@@ -1,10 +1,10 @@
 <template>
-   <v-content>
+   <v-main>
      <div class="staticHero">
-       <v-img src="../assets/images/job1.jpeg" contain>
+       <v-img src="../assets/images/hero7.jpg" contain>
          <v-row align="end" class="lightbox white--text pa-2 fill-height">
            <v-col  class="hidden-xs-only">
-             <div class="headline">About Us</div> 
+             <div class="headline"><h1>About Us</h1></div> 
            </v-col>
          </v-row>
        </v-img>
@@ -136,7 +136,7 @@
 
 
 
-   </v-content>
+   </v-main>
 
    
 </template>
@@ -179,6 +179,8 @@ h1 {
   font-size: 4rem;
   color: white;
   background-color: black;
+  border-radius: 15px;
+  padding: 20px; 
 }
 
 @media screen and (min-width: 758px) and (max-width: 900px) {
