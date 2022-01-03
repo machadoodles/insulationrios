@@ -1,27 +1,27 @@
 <template>
     <div class="block galleryBlock">
                 <v-parallax class="hidden-xs-only hidden-sm-only"
-                height="700"
-                src="../assets/images/hero2.jpg"
-              >
-              <v-row
-                    align="center"
-                    justify="center"
-                  >
-                  
-                    <v-col
-                      class="text-center"
-                      cols="14"
-                    >
-                      <h1 class="text-h2 font-weight-thick mb-10">
-                        Welcome to Insulation & Roofing Rios
-                      </h1>
-                      <h4 class="text-h5 subheading">
-                        We'll help you with any insulation jobs you may have
-                      </h4>
-                    </v-col>
-                  </v-row>
-              </v-parallax>
+                                height="600"
+                                src="../assets/images/hero333.jpg"
+                              >
+                              <v-row
+                                    align="center"
+                                    justify="center"
+                                  >
+                                  
+                                    <v-col
+                                      class="text-center"
+                                      cols="14"
+                                    >
+                                      <h1 class="text-h2 font-weight-thick mb-10">
+                                        Welcome to Insulation & Roofing Rios
+                                      </h1>
+                                      <h4 class="text-h5 subheading">
+                                        We'll help you with any insulation or roof work you may have
+                                      </h4>
+                                    </v-col>
+                                  </v-row>
+                              </v-parallax>
                             <v-container>
                             <h2 class="text-center">
                               Previous Work
