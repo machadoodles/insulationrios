@@ -4,7 +4,7 @@
        <v-img src="../assets/images/hero7.jpg" contain max-width="1200" max-height="800" class="pa-md-4 mx-lg-auto">
          <v-row align="end" class="lightbox white--text pa-2 fill-height">
            <v-col  class="hidden-xs-only">
-             <div class="headline"><h1>About Us</h1></div> 
+             <div class="headline" ><h1>About Us</h1></div> 
            </v-col>
          </v-row>
        </v-img>
@@ -41,7 +41,7 @@
     </v-container> 
 
         <v-container id="hideThisTwo">
-                  <v-row no-gutters>
+                  <v-row no-gutters flat>
                   <v-col
                     cols="12"
                     sm="6"

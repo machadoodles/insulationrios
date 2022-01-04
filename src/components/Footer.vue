@@ -28,7 +28,7 @@ Here at Insulation & Roofing Rios, we proudly focus on providing an elite home m
       <v-divider></v-divider>
 
       <v-card-text>
-        {{ new Date().getFullYear() }} — <strong>© ® Copyright - All Right Reserved.<p>Website by Edgar Machado</p> </strong>
+        {{ new Date().getFullYear() }} — <strong>© Copyright - All Right Reserved ®.<p>Website by Edgar Machado</p> </strong>
       </v-card-text>
       
     </v-card>
