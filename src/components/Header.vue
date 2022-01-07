@@ -26,8 +26,6 @@
       </v-btn>
       <v-btn text >
 
-
-    
      <a onclick="window.location.href='tel:6264899924';"><span class="mdi mdi-phone"></span> 626.489.9924</a> 
 
       </v-btn>
