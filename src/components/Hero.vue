@@ -35,7 +35,7 @@
             src: require("../assets/images/hero2.jpg"),
           },
           {
-            src: require("../assets/images/hero3.jpg"),
+            src: require("../assets/images/hero333.jpg"),
           },
           {
             src: require("../assets/images/hero4.jpg"),

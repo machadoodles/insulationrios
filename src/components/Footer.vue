@@ -1,13 +1,13 @@
 <template>
     <v-container>
-            <v-footer
-    
+    <v-footer
     padless
+    
   >
     <v-card
       flat
       tile
-      class=" text-center"
+      class="lighten-1 white--text text-center"
     >
       <v-card-text>
         <v-btn
