@@ -21,9 +21,9 @@
         <router-link to="/about">About </router-link>
       </v-btn>
 
-      <v-btn text>
+      <!-- <v-btn text>
           <router-link to="/contact">Contact </router-link>
-      </v-btn>
+      </v-btn> -->
       <v-btn text >
 
      <a onclick="window.location.href='tel:6264899924';"><span class="mdi mdi-phone"></span> 626.489.9924</a> 
@@ -44,9 +44,9 @@
                     <v-list-item>
                     <v-list-item-title><router-link to="/about">About </router-link></v-list-item-title>
                     </v-list-item>
-            <v-list-item>
+            <!-- <v-list-item>
             <v-list-item-title><router-link to="/contact">Contact </router-link></v-list-item-title>
-          </v-list-item>
+          </v-list-item> -->
 
           <v-list-item>
             <v-list-item-title><a href="tel:6264899924" type="call"><span class="mdi mdi-phone"></span> 626.489.9924 </a></v-list-item-title>

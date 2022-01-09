@@ -9,18 +9,7 @@
       tile
       class="lighten-1 white--text text-center"
     >
-      <v-card-text>
-        <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4 "
-          icon
-        >
-          <v-icon size="24px">
-            {{ icon }}
-          </v-icon>
-        </v-btn>
-      </v-card-text>
+<v-spacer></v-spacer>
 
       <v-card-text class="pt-0">
 Here at Insulation & Roofing Rios, we proudly focus on providing an elite home management and attic refurbishment service to our customers by way of our great customer service, attention to detail, and years of professional expertise.      </v-card-text>
@@ -28,7 +17,7 @@ Here at Insulation & Roofing Rios, we proudly focus on providing an elite home m
       <v-divider></v-divider>
 
       <v-card-text>
-        {{ new Date().getFullYear() }} — <strong>© Copyright - All Right Reserved ®.<p>Website by Edgar Machado</p> </strong>
+        {{ new Date().getFullYear() }} — <strong>© Copyright - All Right Reserved ®<p>Website by Edgar Machado</p> </strong>
       </v-card-text>
       
     </v-card>
